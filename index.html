@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Vicktor Portfolio</title>
+</head>
+
+<body>
+    <!-- section HOME-->
+    <section id="home">
+        <div class="content">
+            <header>
+                <div class="content-header">
+                    <h1>Vicktor</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#home" class="select" onclick="select(this)">HOME</a></li>
+                            <li><a href="#aboutme"  onclick="select(this)">ABOUT ME</a></li>
+                            <li><a href="#skills"  onclick="select(this)">SKILLS</a></li>
+                            <li><a href="#portfolio"  onclick="select(this)">PORTFOLIO</a></li>
+                            <li><a href="#contact"  onclick="select(this)">CONTACT</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- menu icon responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="networks">
+                        <a href="https://es.linkedin.com/in/vicktor-nascimento-rodrigues-a1817825a/es"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UCLjPzq9ETxKFm39DOGy5quA"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/vicktor.nr/?hl=es"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://github.com/vicktorNascimento"><i class="fa-brands fa-github"></i></a>
+                        
+                        
+                    </div>
+                </div>
+            </header>
+            <div class="presentation">
+                <p class="welcome">Welcome</p>
+                <h2>I am <span>Vicktor Nascimento</span>, Software developer</h2>
+                <p class="description">Software developer with java, data base, android, html, css and js.
+                   Strong in java , data base and soft skills.
+                </p>
+                <a href="#portfolio"> See Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section about me -->
+    <section id="aboutme">
+        <div class="content-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="aboutme">
+            <p class="title-section">About me</p>
+            <h2>Hi, im  <span>Vicktor Nascimento Rodrigues</span> </h2>
+            <h3>Software developer</h3>
+            <p>Born in Brazil, raised in Spain (Double nationality). I am a multilingual person (English, Spanish, and Portuguese) passionate about technology, video games, music, movies, and TV shows. I also enjoy basketball, going to the gym, and hanging out with my friends. Although I prefer the beach, but I also like to have good times in the mountains. In addition, I enjoy walking with my dog and traveling, and I enjoy the opportunity to talk to people, dance, and progress in life.</p>
+            <p></p>
+            <p>Another of my great hobbies is my YouTube channel where I share my knowledge and experiences. I believe that knowledge can change lives, so if I can help someone with my mistakes and successes, I hope they are welcome. After all, I did the same. If you want to know more about me, you can contact me, see my Instagram where I post more about my hobbies, or visit my LinkedIn for something more professional.</p>
+            <a href="#">Downloud CV</a>
+        </div>
+    </section>
+
+
+    <!-- section skills -->
+    <div class="content-skills" id="skills">
+        <h3>Skills </h3>
+        <!--Soft skills  -->
+        <div class="skill">
+            <div class="info">
+                <p> <span class="list"> </span>Soft Skills</p>
+                <span class="average">90%</span>
+            </div>
+
+            <div class="bars">
+                <div class="" id="sk"></div>
+            </div>
+        </div>
+        <!-- Java -->
+        <div class="skill">
+            <div class="info">
+                <p> <span class="list"> </span>Java</p>
+                <span class="average">80%</span>
+            </div>
+
+            <div class="bars">
+                <div class="" id="jv"></div>
+            </div>
+        </div>
+       <!-- Html & Css -->
+        <div class="skill">
+            <div class="info">
+                <p> <span class="list"> </span>Html & Css</p>
+                <span class="average">70%</span>
+            </div>
+
+            <div class="bars">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <!-- java script -->
+        <div class="skill">
+            <div class="info">
+                <p> <span class="list"> </span>Javascript</p>
+                <span class="average">50%</span>
+            </div>
+
+            <div class="bars">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <!-- Data base -->
+        <div class="skill">
+            <div class="info">
+                <p> <span class="list"> </span>Data Base</p>
+                <span class="average">70%</span>
+            </div>
+
+            <div class="bars">
+                <div class="" id="db"></div>
+            </div>
+        </div>
+        <!-- Python -->
+        <div class="skill">
+            <div class="info">
+                <p> <span class="list"> </span>Python</p>
+                <span class="average">50%</span>
+            </div>
+
+            <div class="bars">
+                <div class="" id="pt"></div>
+            </div>
+        </div>
+
+        <!-- Android -->
+        <div class="skill">
+            <div class="info">
+                <p> <span class="list"> </span>Android</p>
+                <span class="average">70%</span>
+            </div>
+
+            <div class="bars">
+                <div class="" id="ad"></div>
+            </div>
+        </div>
+        
+       
+    </div>
+
+    <!-- section PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="title-section">My proyects</h3>
+        <div class="row">
+            <div class="proyects">
+                <div class="overlay"></div>
+                <a href="#home" ><img src="img/proyecto1.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Portafolio Web</p>
+                </div>
+            </div>
+            <div class="proyects">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Mobile music player</p>
+                </div>
+            </div>
+            <div class="proyects">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Mobile calculator</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contact">
+        <h3 class="title-section">Contact me</h3>
+        <div class="content-form">
+            <form action="https://formsubmit.co/fullminarex@gmail.com" method="POST" >
+                <div class="row midle">
+                    <input type="text" name="name" placeholder="Name*" class="input-midle">
+                    <input type="email" name="email" placeholder="Email" class="input-midle">
+                </div>
+                <div class="row">
+                    <input type="text" name="subject" placeholder="Message theme..." class="input-full">
+                </div>
+                <div class="row">
+                    <textarea name="comments" id="" cols="30" rows="10" placeholder="your message..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit"  value="Send message" class="btn-send">
+
+                <input type="hidden" name="_next" value="https://vicktorwork.000webhostapp.com/" >
+            </form>
+        </div>
+    </section>
+
+    <!-- section FOOTER -->
+    <footer>
+        <p>All right reserved - 2022</p>
+        <div class="networks">
+            <a href="https://es.linkedin.com/in/vicktor-nascimento-rodrigues-a1817825a/es"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCLjPzq9ETxKFm39DOGy5quA"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/vicktor.nr/?hl=es"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://github.com/vicktorNascimento"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
