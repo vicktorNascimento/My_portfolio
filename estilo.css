@@ -1,4 +1,4 @@
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
         * {
             margin: 0;
             padding: 0;
@@ -19,6 +19,7 @@
             background-position: center center;
             height: 100vh;
         }
+
         
         #home .content header {
             background-color: rgba(0, 0, 0, .8);
@@ -418,7 +419,6 @@
         #portfolio .row .proyects img {
             width: 100%;
             height: 100%;
-            ;
             filter: grayscale(1);
             object-fit: cover;
             transition: .5s;
@@ -527,6 +527,10 @@
             margin: 5px;
             font-size: 26px;
         }
+
+        footer a:hover {
+            color: #ff5080;
+        }
         /* *********************/
         /* section responsive */
         /* *********************/
@@ -607,3 +611,204 @@
                 margin-bottom: 15px;
             }
         }
+
+
+
+        /* *********************/
+        /* section sub-Index : Music player and Calculator */
+        /* *********************/
+
+        
+
+        
+        #homeSub .content header {
+            background-color: rgba(0, 0, 0, .8);
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            top: 0;
+        }
+        
+        #homeSub .content header .content-header {
+            max-width: 57%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        
+        #homeSub .content header .content-header h1 {
+            text-align: center;
+            color: #ff5080;
+        }
+        
+        #homeSub .content header .content-header nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        #homeSub .content header .content-header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 12px;
+            font-weight: 400;
+            transition: .5s;
+        }
+        
+        #homeSub .content header .content-header nav ul li a:hover {
+            color: #ff5080;
+        }
+        
+        #homeSub .content header .content-header .networks a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin-left: 10px;
+            transition: .5s;
+        }
+        
+        #homeSub .content header .content-header .networks a:hover {
+            color: #ff5080;
+        }
+        
+        #homeSub .content header .content-header .select {
+            color: #ff5080;
+        }
+        
+        #homeSub .content .presentation {
+            max-width: 1100px;
+            height: 100vh;
+            margin: auto;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #homeSub .content .presentation .welcome {
+            font-size: 70px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        
+        #homeSub .content .presentation h2 {
+            font-size: 55px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        #homeSub .content .presentation h2 span {
+            font-size: 55px;
+            color: #ff5080;
+        }
+        
+        #homeSub .content .presentation .description {
+            max-width: 900px;
+            margin: 25px auto;
+            font-size: 30px;
+            text-align: center;
+        }
+        
+        #homeSub .content .presentation a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 25px;
+            padding: 20px 25px;
+            border: 2px solid #fff;
+            border-radius: 50px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: .5s;
+        }
+        
+        #homeSub .content .presentation a:hover {
+            background-color: #ff5080;
+        }
+        
+        #icono-nav {
+            color: #fff;
+            display: none;
+        }
+
+
+        /* *********************/
+        /* section sub-Index : Music player and Calculator */
+        /* Section preview */
+        /* *********************/
+
+
+        #Preview {
+            max-width: 1300px;
+            margin: auto;
+            padding: 100px 0px 15px;
+            color: #111135;
+            display: block;
+            
+        }
+        
+        #Preview .content-foto {
+            max-width: 400px;
+            margin-right: 40px;
+        }
+        
+        #Preview .content-foto img {
+            padding: 20px;
+            width: 100%;
+            border-radius: 20px;
+            background-color: #f3f3f3;
+        }
+        
+        #Preview .aboutme {
+            margin: 0 40px;
+            display: flex;
+        }
+        
+        #Preview .title-section {
+            text-align: center;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+            margin-bottom: 40px;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 5px;
+        }
+    
+        #Preview .aboutme p {
+            font-size: 14px;
+            width: 350px;
+            line-height: 25px;
+            color: #565656;
+            margin-top: 15px;
+            margin-left: 45px;
+            display:  flex;
+        }
+        
+        #Preview a {
+            text-decoration: none;
+            color: #000;
+            background: #d3d3d3;
+            border-radius: 30px;
+            border: 1px solid #000;
+            padding: 10px 20px;
+            margin-top: 30px;
+            transition: .5s;
+            text-align: center;
+            display: block;
+        }
+
+        #Preview a:hover {
+            background-color: #ff5080;
+            color: #fff;
+        }
+        
+        iframe {
+            display: block;
+        }
+
+  
