@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mobile phone Calculator</title>
+</head>
+
+<body>
+    <!-- section HOME-->
+    <section id="homeSub">
+        <div class="content">
+            <header>
+                <div class="content-header">
+                    <h1>Vicktor</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="index.html#home" class="select" onclick="select(this)">HOME</a></li>
+                            <li><a href="index.html#aboutme"  onclick="select(this)">ABOUT ME</a></li>
+                            <li><a href="index.html#skills"  onclick="select(this)">SKILLS</a></li>
+                            <li><a href="index.html#portfolio"  onclick="select(this)">PORTFOLIO</a></li>
+                            <li><a href="index.html#contact"  onclick="select(this)">CONTACT</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- menu icon responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="networks">
+                        <a href="https://es.linkedin.com/in/vicktor-nascimento-rodrigues-a1817825a/es" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UCLjPzq9ETxKFm39DOGy5quA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/vicktor.nr/?hl=es" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://github.com/vicktorNascimento"><i class="fa-brands fa-github" target="_blank"></i></a>
+                        
+                        
+                    </div>
+                </div>
+            </header>
+
+    <!-- section Preview -->
+    <section id="Preview">
+        <p class="title-section">Calculator application</p>
+        <div class="aboutme">
+            <iframe width="760" height="515" src="https://www.youtube.com/embed/P0bg7sFtVis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Music player application. When the application starts, it will load showing the logo. Then it will show an interface to log in, the user: "admin" and password: "1234", otherwise it will show that the password or username is incorrect. Once you have logged in, you will be able to choose the genre, then the artist, which will show an image of the artist. Depending on the artist, their songs will be shown, which when chosen will play the song. The album cover of the song, the artist's name, the song name, the progress bar showing how much of the song is left, and a pause image that you can pause the song and change to a play image to resume the song will be displayed on the bar. The interface of the app will also show a logout button in case you want to change user.</p>
+        </div>
+        <a href="https://github.com/vicktorNascimento/Mobile-phone-calculator">Github</a>
+
+    </section>
+
+
+    <!-- section PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="title-section">My proyects</h3>
+        <div class="row">
+            <div class="proyects">
+                <div class="overlay"></div>
+                <a href="https://github.com/vicktorNascimento/My_portfolio" ><img src="img/proyecto1.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Portafolio Web</p>
+                </div>
+            </div>
+            <div class="proyects">
+                <div class="overlay"></div>
+                <a href="Mobile-phone-music-player.html"><img src="img/proyecto2.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Mobile phone music player</p>
+                </div>
+            </div>
+            <div class="proyects">
+                <div class="overlay"></div>
+                <a href="Mobile-phone-calculator.html"><img src="img/proyecto3.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Mobile phone calculator</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+
+
+    <!-- section FOOTER -->
+    <footer>
+        <p>All right reserved - 2022</p>
+        <div class="networks">
+            <a href="https://es.linkedin.com/in/vicktor-nascimento-rodrigues-a1817825a/es" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCLjPzq9ETxKFm39DOGy5quA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/vicktor.nr/?hl=es" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://github.com/vicktorNascimento" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
