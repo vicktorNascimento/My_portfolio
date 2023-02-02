@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mobile Streaming</title>
+</head>
+
+<body>
+    <!-- section HOME-->
+    <section id="homeSub">
+        <div class="content">
+            <header>
+                <div class="content-header">
+                    <h1>Vicktor</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="index.html#home" class="select" onclick="select(this)">HOME</a></li>
+                            <li><a href="index.html#aboutme"  onclick="select(this)">ABOUT ME</a></li>
+                            <li><a href="index.html#skills"  onclick="select(this)">SKILLS</a></li>
+                            <li><a href="index.html#portfolio"  onclick="select(this)">PORTFOLIO</a></li>
+                            <li><a href="index.html#contact"  onclick="select(this)">CONTACT</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- menu icon responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="networks">
+                        <a href="https://es.linkedin.com/in/vicktor-nascimento-rodrigues-a1817825a/es" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UCLjPzq9ETxKFm39DOGy5quA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/vicktor.nr/?hl=es" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://github.com/vicktorNascimento"><i class="fa-brands fa-github" target="_blank"></i></a>
+                        
+                        
+                    </div>
+                </div>
+            </header>
+
+    <!-- section Preview -->
+    <section id="Preview">
+        <p class="title-section">Mobile Streaming application</p>
+        <div class="aboutme">
+            <iframe width="760" height="515" src="https://youtu.be/6Rs-Ar3OWPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>It's a mobile streaming app like Netflix or HB8. It works through custom recycler views. When loading the recyclers, they go through a hashmap which has the category name as the key, so I can start each list without having to name it because it has the key's name, and I can create them without problems. Within each list is each movie object with its data. To display videos and images, I load them from the internet because I thought that would reduce the app's size given that I have to load so many things on the screen. The main reason is that this app was just a sample and my teacher didn't want us to focus on creating a database.</p>
+        </div>
+        <a href="https://github.com/vicktorNascimento/Mobile_phone_Streaming">Github</a>
+
+    </section>
+
+
+    <!-- section PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="title-section">My proyects</h3>
+        <div class="row">
+            <div class="proyects">
+                <div class="overlay"></div>
+                <a href="https://github.com/vicktorNascimento/My_portfolio" ><img src="img/proyecto1.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Portafolio Web</p>
+                </div>
+            </div>
+            <div class="proyects">
+                <div class="overlay"></div>
+                <a href=""><img src="img/proyecto2.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Mobile phone music player</p>
+                </div>
+            </div>
+            <div class="proyects">
+                <div class="overlay"></div>
+                <a href="Mobile-phone-calculator.html"><img src="img/proyecto3.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Mobile phone calculator</p>
+                </div>
+            </div>
+            <div class="proyects">
+                <div class="overlay"></div>
+                <a href="Mobile-streaming-example"><img src="img/proyecto4.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Description proyect</h4>
+                    <p>Mobile Streaming application</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+
+
+    <!-- section FOOTER -->
+    <footer>
+        <p>All right reserved - 2022</p>
+        <div class="networks">
+            <a href="https://es.linkedin.com/in/vicktor-nascimento-rodrigues-a1817825a/es" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCLjPzq9ETxKFm39DOGy5quA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/vicktor.nr/?hl=es" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://github.com/vicktorNascimento" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
